@@ -1,0 +1,134 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url(1.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 40px;
+    font-family: 'Marcellus SC', serif;
+    font-weight: bold;
+    color: white;
+}
+.navbar-default .navbar-brand:hover{
+  transform: scale(1.2);
+  color: white;
+}
+#next{
+  float:right;
+
+}
+#but{
+  font-family: 'Marcellus SC', serif;
+  background-color: inherit;
+  border: 2px solid white;
+  float: right;
+}
+#but:hover{
+  transform: scale(1.5);
+}
+ .caret{
+   color: white;
+ }
+.navbar-default .navbar-nav > li > a{
+   color: white;
+  font-family: 'Cabin', sans-serif
+ }
+ #learn{
+   text-decoration: none;
+   color: white;
+   font-family: 'Cabin', sans-serif;
+   padding-bottom: 10px;
+   border-bottom: 2px solid white;
+ }
+ #learn:hover{
+   color: #42f4ee;
+   border-bottom: 2px solid #42f4ee;
+ }
+
+ .navbar-default {
+     background: none;
+     border: inherit;
+ }
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+     color: #42f4ee;
+
+ }
+ .navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #42f4ee;
+    background: inherit;
+
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #42f4ee;
+    background: inherit;
+
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  background-color: inherit;
+
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+      background-color: inherit;
+
+}
+ h4{
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.3px;
+    word-spacing: 3px;
+ }
+
+
+
+#content{
+  margin-top: 40px;
+  font-size: 60px;
+  word-spacing: 2px;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+}
+
+.navbar-default{
+  margin-top: 20px;
+  border-bottom: 2px solid white;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.newpage{
+  background-color: white;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#demo{
+  color: black;
+  font-family: 'Special Elite', cursive;
+  font-size: 30px;
+}
+
+#mrabout{
+  text-decoration: none;
+  color: #42f4ee;
+  font-family: 'Cabin', sans-serif;
+  border-bottom: 2px solid white;
+  font-size: 30px;
+}
