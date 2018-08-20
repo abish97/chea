@@ -1,0 +1,252 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: white;
+
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 40px;
+    font-family: 'Marcellus SC', serif;
+    font-weight: bold;
+    color: black;
+}
+.navbar-default .navbar-brand:hover{
+  transform: scale(1.2);
+  color: black;
+}
+#next{
+  float:right;
+
+}
+#but{
+  font-family: 'Marcellus SC', serif;
+  background-color: inherit;
+  border: 2px solid black;
+  float: right;
+}
+#but:hover{
+  transform: scale(1.5);
+}
+ .caret{
+   color: black;
+ }
+.navbar-default .navbar-nav > li > a{
+   color: black;
+  font-family: 'Cabin', sans-serif
+ }
+ #learn{
+   text-decoration: none;
+   color: black;
+   font-family: 'Cabin', sans-serif;
+   padding-bottom: 10px;
+   border-bottom: 2px solid black;
+ }
+ #learn:hover{
+   color: #42f4ee;
+   border-bottom: 2px solid #42f4ee;
+ }
+
+ .navbar-default {
+     background: none;
+     border: inherit;
+
+ }
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+     color: #42f4ee;
+
+ }
+ .navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #42f4ee;
+    background: inherit;
+
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #42f4ee;
+    background: inherit;
+
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  background-color: inherit;
+
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+      background-color: inherit;
+
+}
+ h4{
+    margin-top: 100px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.3px;
+    word-spacing: 3px;
+ }
+
+
+
+#content{
+  margin-top: 40px;
+  font-size: 60px;
+  word-spacing: 2px;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+}
+
+.navbar-default{
+  margin-top: 20px;
+  border-bottom: 2px solid #4156f4;
+  margin-bottom: -20px;
+}
+.newpage{
+  background-color: white;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#demo{
+  color: black;
+  font-family: 'Special Elite', cursive;
+  font-size: 30px;
+}
+
+#mrabout{
+  text-decoration: none;
+  color: #42f4ee;
+  font-family: 'Cabin', sans-serif;
+  border-bottom: 2px solid white;
+  font-size: 30px;
+}
+
+.what{
+  background-color: #4156f4;
+}
+.whatche{
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.cheme-featured-image {
+  width: 50%;
+  height: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-left: 45%;
+  margin-top: -100px;
+  margin-bottom: -60px;}
+
+.ullist{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: white;
+      width: 35%;
+      height: 100%;
+      margin-left: 30px;
+      margin-top: 80px;
+
+  }
+.contentinside{
+  margin-left: 40%;
+  margin-top: -30%;
+}
+#contentinside{
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+
+}
+.lilist a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-bottom: 2px dotted #c4c9d1;
+      font-size: 20px;
+      font-family: 'Exo', sans-serif;
+      margin-left: 20px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+  }
+.lilist a:hover{
+  color:#42f4ee
+}
+.bottomnav{
+  margin-top: 30px;
+  margin-left: 20px;
+  border-top: 2px solid #c4c9d1;
+  border-bottom: 2px solid #c4c9d1;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+#contactus{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  color: #42f4ee;
+  padding-top: 10px;
+  letter-spacing: 4px;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+#coni{
+  font-family:"Titillium Web", sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#con{
+  font-family:"Titillium Web", sans-serif;
+  padding-bottom: -10px
+}
+.forcontact{
+  border-right: 1px solid #c4c9d1;
+  width:20%;
+  height: 30%;
+  display:inline-block;
+}
+#connectus{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  color: #42f4ee;
+  margin: 0 0 13px;
+  letter-spacing: 4px;
+  margin-top: 16px;
+  margin-left: 30px;
+  font-size: 20px;
+
+}
+.forconnect{
+  float: right;
+  margin-right: 900px;
+  display:inline-block;
+}
+.fb{
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.in{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
